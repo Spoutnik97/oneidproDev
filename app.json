@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "sdkVersion": "30.0.0",
+    "slug": "oneidpro",
+    "name": "OneID Pro",
+    "version": "2.2.0",
+    "orientation": "portrait",
+    "icon": "./images/logoPro_1024_white.png",
+    "scheme": "oneidpro",
+    "privacy": "unlisted",
+    "androidStatusBar": {
+      "backgroundColor": "#000"
+    },
+    "splash": {
+      "image": "./images/splash.png",
+      "backgroundColor": "#795548",
+      "resizeMode": "contain"
+    },
+    "updates": {
+      "enabled": true,
+      "fallbackToCacheTimeout": 5000,
+    },
+    "ios": {
+      "bundleIdentifier": "com.imagineoneid.oneidpro",
+      "supportsTablet": false,
+      "icon": "./images/logoPro_1024_white.png",
+      "infoPlist": {
+        "NSCameraUsageDescription": "OneID Pro utilise la caméra pour ajouter des documents aux profils de vos inscrits",
+        "NSPhotoLibraryAddUsageDescription": "OneID Pro peut enregistrer des photos prises avec l'application à votre gallerie d'images",
+        "NSPhotoLibraryUsageDescription": "OneID a besoin d'accéder à votre librairie d'images pour consulter vos documents enregistrés"
+      }
+    },
+    "android": {
+      "package": "com.imagineoneid.oneidpro",
+      "versionCode": 2,
+      "icon": "./images/logoPro_1024.png",
+    }
+  },
+  "displayName": "OneID Pro",
+}

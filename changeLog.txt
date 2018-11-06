@@ -1,0 +1,52 @@
+Version 0.1.1
+- Version Alpha pour test Forum AM 2018
+
+Version 0.1.2
+- Nouvel écran de démarrage
+- Correction de bug d'affichage clavier sur les inputs
+- Correction de bug d'affichage des headers
+- Affichage du type de document
+- Amélioration de performance au démarrage
+
+Version 0.2.0
+- Candidate changés pour Account
+- Meilleure organisation du code
+- Corrections de bugs
+
+Version 0.2.1
+- Amélioration des performances
+- Nouveau système de choix des documents
+- Compatible tous évènements
+- Nouveau visuels de cartes
+
+Version 0.2.2
+- Ecrans de présentation de l'application
+- Ajout des options de suppression de compte et de déconnexion
+- Améliorations visuelles
+
+Version 0.2.3
+- Correction de bug de transfert OneID - OneID Pro
+- Modification du Picker iOS
+- Auto-défilement du caroussel
+
+Version 0.3.0
+- Changer l'adresse mail
+- Exportation des comptes en .csv sur une adresse Email
+- Champs multiples pour les nouveaux comptes
+- Champs spéciaux pour les formulaires
+- Ajout de Toast iOS
+- Mode Hors connexion sécurisé
+- Les images s'enregistrent avec les nom et prénom de l'inscrit
+
+Version 1.0.0
+-> Go to the Play Store !
+
+Version 2.2.0
+- Choix du Plan
+- Ajout d'évènements
+- Ajout de collaborateurs
+- Connection à un évènement
+- Modification de l'évènement
+- Export de l'évènement
+- Profil Gadz
+-...
