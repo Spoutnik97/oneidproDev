@@ -5,6 +5,7 @@ import {
 import {
   Container, Content, Text, Card, CardItem,
 } from 'native-base';
+import { NavigationActions, StackActions } from 'react-navigation';
 import {
   Button, randomString, fetchOneID,
 } from './react-native-oneid';
@@ -83,8 +84,15 @@ export default class CreateFormScreen extends Component {
         event.role = 'admin';
         event.teamMates = [];
         newEvents.push(event);
-        AsyncStorage.setItem('events', JSON.stringify(newEvents)).then(() => this.setState({ proservice: event.proservice }));
-        this.props.navigation.goBack();
+        AsyncStorage.setItem('events', JSON.stringify(newEvents)).then(() => {
+          this.setState({ proservice: event.proservice });
+          const resetAction = StackActions.reset({
+            key: null,
+            index: 0,
+            actions: [NavigationActions.navigate({ routeName: 'Events' })],
+          });
+          this.props.navigation.dispatch(resetAction);
+        });
         return true;
       }
       Alert.alert('Erreur', 'Une erreur est survenue :(');
